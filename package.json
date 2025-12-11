@@ -1,0 +1,19 @@
+{
+  "name": "StackCompiler",
+  "version": "1.0.0",
+  "description": "Утилита для генерации docker-compose.yml",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dcgen": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "js-yaml": "^4.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
